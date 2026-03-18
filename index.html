@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyntaxWear - E-commerce</title>
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
-    
+    <link rel="stylesheet" href="./css/components/header.css">
 </head>
+
 <body>
 
-    <header class="main-header">
+    <header class="header">
         <!-- Logo e Navegação Principal -->
-         <h1>teste</h1>
+        <h1 class="logo">
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+                <img src="./images/logo/Logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
+            </a>
+        </h1>
+        <nav class="nav-center" aria-label="Categorias Principais">
+            <ul class="nav-list">
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-right" aria-label="Acesso rápido">
+            <ul>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Sobre</a></li>
+
+                <li>
+                    <a href="#" aria-label="Minha conta">
+                        <img src="./images/icons/user-icon.svg" alt="Ícone de usuário">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Ajuda">
+                        <img src="./images/icons/help-icon.svg" alt="Ajuda">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Carrinho de compras">
+                        <img src="./images/icons/cart-icon.svg" alt="Carrinho de compras">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
     </header>
+
 
     <main>
         <section class="hero-banner">
@@ -36,4 +74,5 @@
     </footer>
 
 </body>
+
 </html>
